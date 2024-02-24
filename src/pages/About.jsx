@@ -1,12 +1,12 @@
 function About() {
     return (
-        <section className="w-full h-auto relative bg-[#f4f5ff] flex flex-col justify-center items-center">
+        <section className="w-full h-screen relative bg-[#f4f5ff] flex flex-col gap-12">
             {/* Introduction */}
-            <section className="w-[100%] h-auto flex-1 flex flex-col ml-16">
-                <h1 className="mt-8 text-4xl font-extrabold text-[#0693f0]">
+            <section className="w-auto h-auto mt-16 flex flex-col ml-16">
+                <h1 className="text-4xl font-extrabold text-[#0693f0]">
                     Introduction
                 </h1>
-                <p className="mt-16 text-xl font-semibold">
+                <p className="mt-8 text-xl font-semibold">
                     I`m{" "}
                     <span className="text-[#0693f0]">
                         Likith Naga Sai Adusumalli
@@ -26,14 +26,14 @@ function About() {
             </section>
 
             {/* Experience */}
-            <section className="w-[100%] h-auto flex-1 flex flex-col ml-16">
+            <section className="w-auto h-auto flex flex-col ml-16">
                 <h1 className="mt-8 text-4xl font-extrabold text-[#0693f0]">
                     Experience
                 </h1>
             </section>
 
             {/* Skills */}
-            <section className="w-[100%] h-auto flex-1 flex flex-col ml-16">
+            <section className="w-auto h-auto flex flex-col ml-16">
                 <h1 className="mt-8 text-4xl font-extrabold text-[#0693f0]">
                     Skills
                 </h1>

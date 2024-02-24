@@ -2,7 +2,7 @@ function Home() {
     return (
         <section className="w-full h-screen relative bg-[#f4f5ff] flex justify-center items-center">
             {/* Left - Intro */}
-            <div className="w-[100%] h-[100%] flex-1 flex flex-col ml-16">
+            <div className="w-[100%] h-[100%] flex flex-col flex-1 ml-16">
                 <p className="mt-16 text-2xl font-semibold">
                     Hey, I`m Likith Adusumalli
                 </p>
