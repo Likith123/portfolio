@@ -1,12 +1,12 @@
 function About() {
     return (
-        <section className="w-full h-screen relative bg-[#f4f5ff] flex flex-col gap-16 pl-16">
+        <section className="w-full h-screen text-xl relative bg-[#f4f5ff] flex flex-col gap-16 pl-16">
             {/* Introduction */}
             <section className="size-auto mt-16 flex flex-col">
                 <h1 className="text-4xl font-extrabold text-[#0693f0]">
                     Introduction
                 </h1>
-                <p className="mt-8 text-xl font-semibold">
+                <p className="mt-8 font-semibold">
                     I`m{" "}
                     <span className="text-[#0693f0]">
                         Likith Naga Sai Adusumalli
@@ -16,7 +16,7 @@ function About() {
                     the challenge of bringing ideas to life through code,
                     ensuring every interaction feels intuitive and delightful.
                 </p>
-                <p className="mt-8 text-xl font-semibold">
+                <p className="mt-8 font-semibold">
                     My superpower is bridging the gap between design and
                     functionality. I`m equally comfortable crafting
                     pixel-perfect UIs with React components as I am architecting
