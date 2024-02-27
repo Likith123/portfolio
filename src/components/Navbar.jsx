@@ -24,17 +24,17 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about" className={checkIsActive} end>
+                        <NavLink to="/about" className={checkIsActive}>
                             About
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/projects" className={checkIsActive} end>
+                        <NavLink to="/projects" className={checkIsActive}>
                             Projects
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contactMe" className={checkIsActive} end>
+                        <NavLink to="/contactMe" className={checkIsActive}>
                             Contact
                         </NavLink>
                     </li>
