@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
 
 function NavItem({ to, children }) {
+
     function checkIsActive({ isActive }) {
-        return isActive ? "font-bold underline" : undefined;
+        return isActive ? "font-bold filter transition duration-300 drop-shadow-lg" : undefined;
     }
 
     return (
