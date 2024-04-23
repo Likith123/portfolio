@@ -1,12 +1,12 @@
 function About() {
   return (
-    <section className="w-full h-screen text-xl relative bg-[#f4f5ff] flex flex-col gap-16 pl-16">
+    <section className="w-full min-h-[90vh] text-xl relative bg-lightBgColor flex flex-col gap-16 px-32">
       {/* Introduction */}
       <section className="size-auto mt-16 flex flex-col">
-        <h1 className="text-4xl font-extrabold text-[#0693f0]">Introduction</h1>
+        <h1 className="text-4xl font-extrabold text-primary">Introduction</h1>
         <p className="mt-8 font-semibold">
-          I`m <span className="text-[#0693f0]">Likith Naga Sai Adusumalli</span>
-          , a passionate React Full Stack Developer with a knack for crafting
+          I`m <span className="text-primary">Likith Naga Sai Adusumalli</span>,
+          a passionate React Full Stack Developer with a knack for crafting
           seamless and engaging web applications. I thrive on the challenge of
           bringing ideas to life through code, ensuring every interaction feels
           intuitive and delightful.
@@ -21,7 +21,7 @@ function About() {
 
       {/* // TODO: Experience */}
       <section className="size-auto flex flex-col">
-        <h1 className="mt-8 text-4xl font-extrabold text-[#0693f0]">
+        <h1 className="mt-8 text-4xl font-extrabold text-primary">
           Experience
         </h1>
         <h2>EdgeVerve Systems Limited - Since 2021</h2>
@@ -29,7 +29,7 @@ function About() {
 
       {/* // TODO: Skills */}
       <section className="size-auto flex flex-col">
-        <h1 className="mt-8 text-4xl font-extrabold text-[#0693f0]">Skills</h1>
+        <h1 className="mt-8 text-4xl font-extrabold text-primary">Skills</h1>
       </section>
     </section>
   );
