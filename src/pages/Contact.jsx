@@ -2,28 +2,32 @@ import Input from "../components/Input";
 
 function Contact() {
   return (
-    <section className="w-full min-h-[90vh] bg-lightBgColor px-32">
+    <section className="bg-primary-700-100 flex h-[90vh] w-full flex-col px-32">
       {/* Contact Form */}
-      <h1 className="pt-8 text-3xl font-semibold text-center">
-        Contact <span className="text-primary">Me</span>
+      <h1 className="mt-8 text-center text-3xl font-semibold">
+        Contact <span className="text-primary-700">Me</span>
       </h1>
 
-      <div className="w-[100%] h-[80%] flex flex-1 justify-center items-center gap-16 pt-12">
-        <div className="w-[50%] h-[100%] flex justify-center items-center">
+      <div className="flex flex-1 items-center gap-16 border-2 border-red-100">
+        <div className="flex h-3/4 w-1/2 items-center justify-center rounded-2xl border-2 border-green-800">
           <form
             action="/contactMe"
-            className="size-[100%] flex flex-col items-center justify-center gap-8"
+            className="flex size-full flex-col items-center gap-8 px-4 py-8"
           >
             <Input id="fullName" type="string" label="Full Name" />
-            <Input id="phoneNo" type="number" label="Phone No." />
-            <Input id="emailId" type="email" label="Email ID" />
-            <button className="bg-slate-500 rounded-sm w-40 h-12">
+            <div className="flex w-full items-stretch justify-center gap-4">
+              <Input id="phoneNo" type="number" label="Phone No." />
+              <Input id="emailId" type="email" label="Email ID" />
+            </div>
+            <Input id="message" type="string" label="Your Message" textarea = {true}/>
+            <button className="h-12 w-40 rounded-md bg-slate-300">
               Get In Touch
             </button>
           </form>
         </div>
-        <div className="w-[0.5px] h-[75%] bg-black"></div>
-        <div className="w-[50%] h-[100%]">
+
+        {/* Social Media Reachout Links */}
+        <div className="flex h-3/4 w-1/2 justify-center rounded-2xl border-2 border-blue-800">
           <p>SocialMediaLinks</p>
         </div>
       </div>

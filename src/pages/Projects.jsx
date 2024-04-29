@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <section className="w-full min-h-[90vh] relative bg-lightBgColor flex justify-center items-center">
+    <section className="bg-primary-700-100 flex min-h-[90vh] w-full items-center justify-center">
       Projects
     </section>
   );
