@@ -6,11 +6,13 @@ function Home() {
   currentYear = isMonthsCompleted >= 0 ? currentYear : currentYear - 1;
   // const startYear = ;
   return (
-    <section className="relative flex h-[90vh] w-full justify-center gap-4 pt-8">
+    <section className="relative flex h-[90vh] w-full justify-center gap-4 pt-4">
       {/* Left - Intro */}
       <div className="grid h-full w-2/3 grid-cols-3 grid-rows-6 gap-4">
-        <div className="col-span-3 row-span-4 text-wrap rounded-lg bg-slate-200 p-4">
-          <p className="text-2xl font-semibold">Hey, I`m Likith Adusumalli</p>
+        <div className="col-span-3 row-span-4 text-wrap rounded-lg bg-slate-200 p-8">
+          <p className="text-2xl font-semibold">
+            Hey, I`m <span className="font-bold">Likith Adusumalli</span>
+          </p>
           <h1 className="mt-4 text-4xl font-extrabold">
             <span className="text-primary-700">Full Stack </span>
             <br /> Developer
@@ -25,10 +27,10 @@ function Home() {
           </h4>
         </div>
         <div className="col-span-2 flex items-center justify-evenly gap-4 rounded-lg bg-slate-200">
-          <button className="max-h-12 w-32 rounded-lg bg-primary-700 px-4 py-2 text-primary-100">
+          <button className="max-h-12 w-40 rounded-lg border-2 border-primary-700 bg-primary-100 px-4 py-2 text-lg tracking-wider text-primary-700">
             Resume
           </button>
-          <button className="max-h-12 w-32 rounded-lg border-2 border-primary-700 bg-primary-100 px-4 py-2 text-primary-700">
+          <button className="max-h-12 w-40 rounded-lg bg-primary-700 px-4 py-2 text-lg tracking-wider text-primary-100">
             Get in touch
           </button>
         </div>
