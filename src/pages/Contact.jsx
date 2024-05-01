@@ -2,7 +2,7 @@ import Input from "../components/Input";
 
 function Contact() {
   return (
-    <section className="bg-primary-700-100 flex h-[90vh] w-full flex-col px-32">
+    <section className="flex h-[90vh] w-full flex-col">
       {/* Contact Form */}
       <h1 className="mt-8 text-center text-3xl font-semibold">
         Contact <span className="text-primary-700">Me</span>

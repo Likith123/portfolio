@@ -5,7 +5,7 @@ function PageOutlet() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="bg-primary-100 px-32">
         <Outlet />
       </main>
     </>

@@ -1,9 +1,9 @@
 function About() {
   return (
-    <section className="bg-primary-700-100 flex min-h-[90vh] w-full flex-col gap-16 px-32 text-xl">
+    <section className="flex min-h-[90vh] w-full flex-col gap-16 text-xl">
       {/* Introduction */}
       <section className="mt-16 flex size-auto flex-col">
-        <h1 className="text-primary-700 text-4xl font-extrabold">
+        <h1 className="text-4xl font-extrabold text-primary-700">
           Introduction
         </h1>
         <p className="mt-8 font-semibold">
@@ -24,7 +24,7 @@ function About() {
 
       {/* // TODO: Experience */}
       <section className="flex size-auto flex-col">
-        <h1 className="text-primary-700 mt-8 text-4xl font-extrabold">
+        <h1 className="mt-8 text-4xl font-extrabold text-primary-700">
           Experience
         </h1>
         <h2>EdgeVerve Systems Limited - Since 2021</h2>
@@ -32,7 +32,7 @@ function About() {
 
       {/* // TODO: Skills */}
       <section className="flex size-auto flex-col">
-        <h1 className="text-primary-700 mt-8 text-4xl font-extrabold">
+        <h1 className="mt-8 text-4xl font-extrabold text-primary-700">
           Skills
         </h1>
       </section>

@@ -3,7 +3,7 @@ import NavItem from "./NavItem";
 
 function Navbar() {
   return (
-    <header className="bg-primary-700-100 text-primary-700 sticky top-0 z-10 flex h-[10vh] w-full items-center justify-around text-xl font-medium tracking-wide shadow-sm">
+    <header className="sticky top-0 z-10 flex h-[10vh] w-full items-center justify-around bg-primary-100 text-xl font-medium tracking-wide text-primary-700 shadow-sm">
       {/* Logo */}
       <div>
         <Link to="/">
