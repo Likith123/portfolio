@@ -2,7 +2,7 @@ import Input from "../components/Input";
 
 function Contact() {
   return (
-    <section className="flex h-[90vh] w-full flex-col">
+    <section className="flex h-[90vh] w-full flex-col" id="contactMe">
       {/* Contact Form */}
       <h1 className="mt-8 text-center text-3xl font-semibold">
         Contact <span className="text-primary-700">Me</span>
@@ -19,7 +19,12 @@ function Contact() {
               <Input id="phoneNo" type="number" label="Phone No." />
               <Input id="emailId" type="email" label="Email ID" />
             </div>
-            <Input id="message" type="string" label="Your Message" textarea = {true}/>
+            <Input
+              id="message"
+              type="string"
+              label="Your Message"
+              textarea={true}
+            />
             <button className="h-12 w-40 rounded-md bg-slate-300">
               Get In Touch
             </button>

@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="flex min-h-[90vh] w-full flex-col gap-16 text-xl">
+    <section className="flex min-h-[90vh] w-full flex-col gap-16 text-xl" id="about">
       {/* Introduction */}
       <section className="mt-16 flex size-auto flex-col">
         <h1 className="text-4xl font-extrabold text-primary-700">
