@@ -3,9 +3,9 @@ import NavItem from "./NavItem";
 
 function Navbar() {
   return (
-    <header className="sticky top-0 z-10 flex h-[10vh] w-full items-center justify-around bg-primary-100 text-xl font-medium tracking-wide text-primary-700 shadow-sm">
+    <header className="sticky top-0 z-10 flex h-[10vh] w-full items-center justify-around bg-primary-100 text-xl tracking-wide text-primary-700 shadow-sm">
       {/* Logo */}
-      <div>
+      <div className="font-medium">
         <Link to="/">
           <span>Image </span>
           <span>WyseGuy.</span>
@@ -14,7 +14,7 @@ function Navbar() {
 
       {/* Navbar */}
       <nav className="nav">
-        <ul className="flex list-none gap-8">
+        <ul className="flex list-none gap-8 font-light">
           {/* <NavItem to="/">Home</NavItem> */}
           <NavItem to="/about">About</NavItem>
           <NavItem to="/projects">Projects</NavItem>

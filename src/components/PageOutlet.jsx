@@ -10,10 +10,10 @@ import Navbar from "./Navbar";
 function PageOutlet() {
   const navigate = useNavigate();
   let { pathname } = useLocation();
+  pathname = pathname.slice(1);
 
   // function scrollToSection(sectionId) {
   useEffect(() => {
-    pathname = pathname.slice(1);
     if (pathname) {
       navigate(`${pathname}`); // Update URL with section ID
       const element = document.getElementById(pathname);
