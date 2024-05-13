@@ -1,3 +1,5 @@
+import { FiDownload } from "react-icons/fi";
+
 function Home() {
   const isMonthsCompleted =
     new Date().getMonth() - new Date("10/11/2021").getMonth();
@@ -27,8 +29,8 @@ function Home() {
           </h4>
         </div>
         <div className="col-span-2 flex items-center justify-evenly gap-4 rounded-lg bg-slate-200">
-          <button className="max-h-12 w-40 rounded-lg border-2 border-primary-700 bg-primary-100 px-4 py-2 text-lg tracking-wider text-primary-700">
-            Resume
+          <button className="flex max-h-12 w-40 gap-4 items-center justify-center rounded-lg border-2 border-primary-700 bg-primary-100 px-4 py-2 text-lg tracking-wider text-primary-700">
+            <p>Resume</p> <FiDownload />
           </button>
           <button className="max-h-12 w-40 rounded-lg bg-primary-700 px-4 py-2 text-lg tracking-wider text-primary-100">
             Get in touch
